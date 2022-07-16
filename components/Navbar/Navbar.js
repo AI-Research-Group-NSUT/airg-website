@@ -1,0 +1,38 @@
+import { useRouter } from "next/router";
+import * as styles from "./Navbar.module.css";
+import Link from "next/link";
+import Image from "next/image";
+import Logo from "../Logo";
+import { capitalizeFirst } from "../../utils/util";
+
+const tabs = ["home", "projects", "publications", "events", "team"];
+
+const Navbar = () => {
+  // get current tab
+  const router = useRouter();
+
+  const currentTab = router.asPath.slice(1) || "home";
+
+  return (
+    <div className={styles.navbar}>
+      <Logo />
+      <div className={styles.links}>
+        {tabs.map((tab) => {
+          return <NavbarItem isCurrTab={tab === currentTab} tab={tab} key={tab} />;
+        })}
+      </div>
+    </div>
+  );
+};
+
+const NavbarItem = ({ tab, isCurrTab }) => {
+  return (
+    <div>
+      <Link href={`/${tab === "home" ? "" : tab}`}>
+        <a className={`${isCurrTab ? styles.active : ""} ${styles.link}`}>{capitalizeFirst(tab)}</a>
+      </Link>
+    </div>
+  );
+};
+
+export default Navbar;
