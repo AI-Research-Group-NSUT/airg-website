@@ -1,12 +1,12 @@
-import { Navbar } from "../components/Navbar";
+import HeroSection from "../sections/Herosection";
+import { Navbar } from "../sections/Navbar";
 
 export default function Home() {
-
-  // const [activeTab, setActiveTab] = useState(0);
 
   return (
     <div>
       <Navbar />
+      <HeroSection />
     </div>
   )
 }

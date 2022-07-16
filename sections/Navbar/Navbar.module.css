@@ -19,9 +19,29 @@
     line-height: 30px;
     letter-spacing: 0em;
     text-align: left;
-    padding-bottom: 9px;
 }
 
 .active {
     border-bottom: 5px solid #A41034;
+    padding-bottom: 9px;
+
+    animation: padding-bottom 0.1s cubic-bezier(0.91,-0.04, 1, 1);
 }
+
+
+.link:hover {
+    color: #A41034;
+}
+
+/* make an animation which transforms padding bottom from 1 to 9 */
+@keyframes padding-bottom {
+    0% {
+        padding-bottom: 1px;
+        opacity: 0;
+    }
+    100% {
+        padding-bottom: 9px;
+        opacity: 1;
+    }
+}
+    

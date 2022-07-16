@@ -1,8 +1,7 @@
 import { useRouter } from "next/router";
 import * as styles from "./Navbar.module.css";
 import Link from "next/link";
-import Image from "next/image";
-import Logo from "../Logo";
+import Logo from "../../components/Logo";
 import { capitalizeFirst } from "../../utils/util";
 
 const tabs = ["home", "projects", "publications", "events", "team"];
@@ -11,6 +10,7 @@ const Navbar = () => {
   // get current tab
   const router = useRouter();
 
+  // slicing because the route is contains '/', home route is '/' so we have || 'home' incase of ''
   const currentTab = router.asPath.slice(1) || "home";
 
   return (
