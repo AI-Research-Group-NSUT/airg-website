@@ -1,0 +1,38 @@
+.container {
+    max-width: 392px;
+}
+
+.heading {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.date {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #A3A2A2;
+
+
+}
+
+.content {
+    padding: 24px 32px;
+    background-color: #fff;
+    border: 1px solid #A41034;
+    margin-top: -4px;
+}
+
+.headingSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+}

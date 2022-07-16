@@ -1,0 +1,39 @@
+.container {
+    padding-left: min(103px, 5%);
+    padding-right: min(123px, 5%);
+
+    padding-top: 38px;
+    background-color: #D9D9D933;
+
+    padding-bottom: 54px;
+}
+
+.cardSection {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(392px, 1fr));
+    place-items: center;
+    padding-bottom: 83px;
+    gap: 31px;
+}
+
+.button {
+    width: 220px;
+    height: 62px;
+    background: #A41034;
+    border: 2px solid #A41034;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 auto
+}
+
+.buttonText {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}

@@ -1,6 +1,6 @@
 .container {
     padding-left: min(103px, 5%);
-    padding-right: min(103px, 5%);
+    padding-right: min(123px, 5%);
 
     padding-top: 61px;
 }
@@ -17,7 +17,7 @@
 
 .content {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     gap: 53px;
     margin-bottom: 181px;
 }
@@ -32,9 +32,11 @@
     line-height: 33px;
     letter-spacing: 0.02em;
     text-align: left;
-
 }
 
-.content>img {
-    margin-right: 20px;
+
+.imageWrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
