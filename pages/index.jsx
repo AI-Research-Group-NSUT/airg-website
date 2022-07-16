@@ -1,3 +1,4 @@
+import About from "../sections/About";
 import HeroSection from "../sections/Herosection";
 import { Navbar } from "../sections/Navbar";
 
@@ -7,6 +8,7 @@ export default function Home() {
     <div>
       <Navbar />
       <HeroSection />
+      <About />
     </div>
   )
 }
