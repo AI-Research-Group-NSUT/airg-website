@@ -1,0 +1,22 @@
+.wrap {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    gap: 23.5px;
+}
+
+.text {
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    text-align: center;
+}
+
+.socialMediaLinks {
+    display: flex;
+    gap: 24px;
+}

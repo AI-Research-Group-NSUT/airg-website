@@ -6,6 +6,7 @@ import { capitalizeFirst } from "../../utils/util";
 
 const tabs = ["home", "projects", "publications", "events", "team"];
 
+
 const Navbar = () => {
   // get current tab
   const router = useRouter();

@@ -14,7 +14,7 @@ export const About = () => {
                 </p>
                 <div className={styles.imageWrap}>
 
-                <Image src={'/airg-logo.jpeg'} width={250} height={250} />
+                <Image src={'/airg-logo.png'} width={250} height={250} />
                 </div>
             </div>
         </div>
