@@ -2,5 +2,9 @@
 .logo {
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 10px;
+}
+
+.heading.logoText{
+    font-size: 1em;
 }

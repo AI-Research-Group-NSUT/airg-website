@@ -1,39 +1,45 @@
 .navbar {
-    height: 99px;
     background-color: #FAFAFA;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 103px;
-    padding-right: 103px;
-
+    padding: 10px 103px;
     position: sticky;
     top: 0;
-
     z-index: 1;
-
 }
 
 .links {
     display: flex;
-    gap: 40px
+    gap: 32px
 }
-
-
 .link {
     font-family: 'Montserrat';
-    font-size: 25px;
+    font-size: 0.97em;
     font-weight: 400;
-    line-height: 30px;
     letter-spacing: 0em;
     text-align: left;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+}
+.link.active{
+    color: #A41034;
 }
 
-.active {
-    border-bottom: 5px solid #A41034;
-    padding-bottom: 9px;
-
-    animation: padding-bottom 0.1s cubic-bezier(0.91,-0.04, 1, 1);
+.link::after{
+    content: "";
+    background-color: #A41034;
+    height: 2.8px;
+    width: 0%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 0.25s ease-in-out;
+    bottom: -6px;
+    border-radius: 50px;
+}
+.link.active::after{
+    width: 80%;
 }
 
 
@@ -41,15 +47,7 @@
     color: #A41034;
 }
 
-/* make an animation which transforms padding bottom from 1 to 9 */
-@keyframes padding-bottom {
-    0% {
-        padding-bottom: 1px;
-        opacity: 0;
-    }
-    100% {
-        padding-bottom: 9px;
-        opacity: 1;
-    }
+.link:hover::after{
+    width: 65%;
 }
-    
+
