@@ -25,7 +25,7 @@ const IconLink = ({ icon, link }) => {
         // open in new tab
         <a href={link}
             target="_blank"
-            className={styles.iconLink}
+            className={styles.iconLink} rel="noreferrer"
         >
             {icon}
         </a>
