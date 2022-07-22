@@ -1,7 +1,5 @@
 import About from "../sections/About";
-import { Footer } from "../sections/Footer/Footer";
 import HeroSection from "../sections/Herosection";
-import { Navbar } from "../sections/Navbar";
 import Projects from "../sections/Projects";
 
 export default function Home() {
@@ -11,7 +9,6 @@ export default function Home() {
       <HeroSection />
       <About />
       <Projects />
-      <Footer />
     </div>
   )
 }

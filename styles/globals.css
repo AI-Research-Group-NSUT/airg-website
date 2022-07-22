@@ -69,3 +69,31 @@ a {
   text-align: left;
 
 }
+
+/* add media queries for typography */
+@media screen and (max-width: 768px) {
+  .heading-large {
+    font-size: 35px;
+    line-height: 48px;
+  }
+
+  .body {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+
+}
+
+@media screen and (max-width: 500px) {
+  .heading-large {
+    font-size: 30px;
+    line-height: 37px;
+  }
+
+  .body {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+}

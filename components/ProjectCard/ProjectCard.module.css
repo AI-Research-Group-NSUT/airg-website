@@ -1,6 +1,10 @@
-.container {
-    max-width: 392px;
+.container {}
+
+.imageContainer {
+    position: relative;
 }
+
+
 
 .heading {
     font-family: Montserrat;
@@ -27,7 +31,7 @@
     padding: 24px 32px;
     background-color: #fff;
     border: 1px solid #A41034;
-    margin-top: -4px;
+    /* margin-top: -4px; */
 }
 
 .headingSection {

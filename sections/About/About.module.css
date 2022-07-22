@@ -22,21 +22,18 @@
     margin-bottom: 181px;
 }
 
-.content>p {
-    max-width: 893px;
-    font-family: Montserrat;
-
-    font-family: Montserrat;
-    font-size: 26px;
-    font-weight: 400;
-    line-height: 33px;
-    letter-spacing: 0.02em;
-    text-align: left;
-}
 
 
 .imageWrap {
     width: 100%;
     display: flex;
     justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+
+    .imageWrap {
+        display: none;
+    }
+
 }

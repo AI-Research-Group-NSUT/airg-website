@@ -2,16 +2,24 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react'
 import { SocialMediaLinks } from '../../components/SocialMediaLinks/SocialMediaLinks'
+import { useMediaQuery } from '../../hooks/useMediaQuery';
 import { capitalizeFirst } from '../../utils/util';
 import * as styles from './Footer.module.css'
 
 const tabs = ["home", "projects", "publications", "events", "team"];
 
 export const Footer = () => {
+
+  let showQuickLinks = useMediaQuery({ minWidth: 768 });
+
+
+
+
   return (
     <div className={`${styles.footer} ${styles.container}`}>
       {/* quick links */}
-      <div>
+
+      <div className={styles.links}>
         <span className={styles.heading}>Quick Links</span>
         <ul className={styles.quickLinks}>
           {tabs.map(tab => (
@@ -23,6 +31,8 @@ export const Footer = () => {
           ))}
         </ul>
       </div>
+
+
       <SocialMediaLinks />
 
       <Link href={'/'}>

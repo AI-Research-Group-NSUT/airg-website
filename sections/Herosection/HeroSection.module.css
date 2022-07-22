@@ -13,10 +13,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+
     color: #fff;
 
     gap: 6px;
+    transition: all 0.3s ease-in-out;
 }
 
 .heading {
@@ -37,4 +38,40 @@
     letter-spacing: 0em;
     text-align: left;
 
+}
+
+/* add media queries for typography */
+@media (max-width: 768px) {
+    .heading {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .subHeading {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .heroSection {
+        aspect-ratio: 1200/500;
+    }
+
+}
+
+/* add media query for 500px */
+
+@media screen and (max-width: 500px) {
+    .heroSection {
+        aspect-ratio: 600/500;
+    }
+
+    .heading {
+        font-size: 30px;
+        line-height: 37px;
+    }
+
+    .subHeading {
+        font-size: 16px;
+        line-height: 22px;
+    }
 }
