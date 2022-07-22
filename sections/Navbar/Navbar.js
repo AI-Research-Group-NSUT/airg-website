@@ -3,7 +3,8 @@ import * as styles from "./Navbar.module.css";
 import Link from "next/link";
 import Logo from "../../components/Logo";
 import { capitalizeFirst } from "../../utils/util";
-import { useMediaQuery } from "../../hooks/useMediaQuery";
+import Menu from "../../components/Menu";
+import { useState } from "react";
 
 const tabs = ["home", "projects", "publications", "events", "team"];
 
@@ -13,12 +14,18 @@ const Navbar = () => {
 
   // slicing because the route is contains '/', home route is '/' so we have || 'home' incase of ''
   const currentTab = router.asPath.slice(1) || "home";
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
     <div className={styles.navbar}>
       <Logo />
 
-      <div className={styles.menuButton}>MENU</div>
+      <div
+        onClick={() => setIsMenuOpen((p) => !p)}
+        className={styles.menuButton}
+      >
+        <Menu open={isMenuOpen} />
+      </div>
       <div className={styles.links}>
         {tabs.map((tab) => {
           return (
