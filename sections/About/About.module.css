@@ -28,6 +28,8 @@
 .imageWrap {
     width: 100%;
     margin: auto 0;
+    max-width: 250px;
+
 }
 
 @media screen and (max-width: 768px) {
