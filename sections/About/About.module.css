@@ -20,14 +20,14 @@
     /* justify-content: space-between; */
     gap: 53px;
     margin-bottom: 181px;
+    position: relative;
 }
 
 
 
 .imageWrap {
     width: 100%;
-    display: flex;
-    justify-content: center;
+    margin: auto 0;
 }
 
 @media screen and (max-width: 768px) {
