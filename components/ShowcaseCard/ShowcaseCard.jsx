@@ -1,9 +1,9 @@
 import Image from 'next/image'
 import React from 'react'
 
-import * as styles from './EventCard.module.css'
+import * as styles from './ShowcaseCard.module.css'
 
-export const EventCard = ({ imageSrc, heading, location, description }) => {
+export const ShowcaseCard = ({ imageSrc, heading, subtitle, description }) => {
     console.log(imageSrc)
     return (
         <div className={styles.eventCard}>
@@ -13,7 +13,7 @@ export const EventCard = ({ imageSrc, heading, location, description }) => {
             <div className={styles.textContent} >
                 <div>
                     <div className='card-heading'>{heading}</div>
-                    <div className='subtitle'>{location}</div>
+                    <div className='subtitle'>{subtitle}</div>
                 </div>
                 <div className={`body ${styles.text}`}>{description}</div>
             </div>
