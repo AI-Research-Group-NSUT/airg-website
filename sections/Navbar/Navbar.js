@@ -24,7 +24,7 @@ const Navbar = () => {
 
   return (
     <div className={styles.navbar} id="navbar">
-      <Logo />
+      <Logo closeMenu={closeMenu} />
 
       <div
         onClick={() => setIsMenuOpen((p) => !p)}
