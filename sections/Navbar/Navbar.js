@@ -5,6 +5,7 @@ import Logo from "../../components/Logo";
 import { capitalizeFirst } from "../../utils/util";
 import Menu from "../../components/Menu";
 import { useState } from "react";
+import { ScreenCoverNavbar } from "../ScreenCoverNavbar/ScreenCoverNavbar";
 
 const tabs = ["home", "projects", "publications", "events", "team"];
 
@@ -33,6 +34,7 @@ const Navbar = () => {
           );
         })}
       </div>
+      <ScreenCoverNavbar open={isMenuOpen} />
     </div>
   );
 };
