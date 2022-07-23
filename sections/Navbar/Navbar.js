@@ -17,8 +17,13 @@ const Navbar = () => {
   const currentTab = router.asPath.slice(1) || "home";
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  const closeMenu = () => {
+    //TODO: add a little delay to make sure the screen is loaded before the screen cover is removed
+    setIsMenuOpen(false);
+  };
+
   return (
-    <div className={styles.navbar}>
+    <div className={styles.navbar} id="navbar">
       <Logo />
 
       <div
@@ -34,7 +39,7 @@ const Navbar = () => {
           );
         })}
       </div>
-      <ScreenCoverNavbar open={isMenuOpen} />
+      <ScreenCoverNavbar tabs={tabs} open={isMenuOpen} closeMenu={closeMenu} />
     </div>
   );
 };
