@@ -4,7 +4,10 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px min(103px, 5%);
-    position: sticky;
+    /* position: sticky; */
+    position: fixed;
+    left: 0;
+    right: 0;
     top: 0;
     z-index: 1;
 }
@@ -53,34 +56,6 @@
 .link:hover::after {
     width: 65%;
 }
-
-/* add media queries for links and nav button */
-/* @media screenmax-width: 768px {
-    .links {
-        flex-direction: column;
-    }
-
-    .link {
-        font-size: 0.9em;
-        line-height: 1.5em;
-    }
-
-    .link::after {
-        height: 1.5px;
-        width: 0%;
-        bottom: -1.5px;
-    }
-
-    .link.active::after {
-        width: 80%;
-    }
-
-    .link:hover::after {
-        width: 65%;
-    }
-}
-    
-} */
 
 .menuButton {
     display: none;
