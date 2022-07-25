@@ -10,9 +10,9 @@ export const SocialMediaLinks = () => {
             <div className={styles.socialMediaLinks}>
                 {/* Icon-links for twitter, ig, facebook and linkedin */}
                 <IconLink icon={twitter} link="https://twitter.com/" />
-                <IconLink icon={instagram} link="https://www.instagram.com/" />
+                <IconLink icon={instagram} link="https://www.instagram.com/airgnsut/" />
                 <IconLink icon={facebook} link="https://www.facebook.com/" />
-                <IconLink icon={linkedIn} link="https://www.linkedin.com/" />
+                <IconLink icon={linkedIn} link="https://www.linkedin.com/company/artificial-intelligence-research-group-nsut/mycompany/" />
             </div>
         </div>
     )
