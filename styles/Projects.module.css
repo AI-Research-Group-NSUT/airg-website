@@ -1,0 +1,38 @@
+.container {
+
+    padding-left: min(103px, 5%);
+    padding-right: min(123px, 5%);
+
+    padding-top: 61px;
+}
+
+.textSection {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.subSectionHeading {
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    padding-bottom: 32px;
+
+}
+
+.projectCardSection {
+    padding-top: 80px;
+}
+
+.cardSection {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+    place-items: start;
+    padding-bottom: 83px;
+    gap: 31px;
+}

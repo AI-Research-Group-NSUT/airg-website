@@ -9,12 +9,13 @@
     left: 0;
     right: 0;
     top: 0;
-    z-index: 1;
+    z-index: 10;
 }
 
 .links {
     display: flex;
-    gap: 32px
+    gap: 32px;
+    color: black;
 }
 
 .link {
