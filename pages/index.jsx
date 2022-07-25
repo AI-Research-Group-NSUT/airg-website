@@ -1,3 +1,4 @@
+import Head from "next/head";
 import About from "../sections/About";
 import HeroSection from "../sections/Herosection";
 import Projects from "../sections/Projects";
@@ -5,10 +6,15 @@ import Projects from "../sections/Projects";
 export default function Home() {
 
   return (
-    <div>
+    <>
+      <Head>
+        <title>
+          AIRG Home
+        </title>
+      </Head>
       <HeroSection />
       <About />
       <Projects />
-    </div>
+    </>
   )
 }

@@ -1,9 +1,14 @@
+import Head from "next/head";
 import { Navbar } from "../sections/Navbar";
 
 const Team = () => {
   return (
-    <div className="project">
-    </div>
+    <>
+      <Head>
+        <title>Team</title>
+      </Head>
+      <div className="project"></div>
+    </>
   );
 };
 

@@ -10,7 +10,7 @@ export const Logo = ({ closeMenu }) => {
     return (
         <Link href={'/'}>
             <a className={styles.logo} onClick={closeMenu}>
-                <Image src={'/airg-logo.png'} alt="logo" width={35} height={35} />
+                <Image src={'/airg-logo.svg'} alt="logo" width={40} height={40} />
                 <span className={`heading ${styles.logoText}`}>AIRG</span>
             </a>
         </Link>

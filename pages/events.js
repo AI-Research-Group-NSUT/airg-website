@@ -1,3 +1,4 @@
+import Head from "next/head";
 import ShowcaseCard from "../components/ShowcaseCard";
 import * as styles from "../styles/Events.module.css";
 
@@ -6,23 +7,28 @@ const lorem =
 
 const Events = () => {
   return (
-    <div className={`projects ${styles.container}`}>
-      <div className="heading-large">Events</div>
-      <div className={styles.eventsContainer}>
-        <ShowcaseCard
-          description={lorem}
-          heading="Event 1"
-          imageSrc={"/event-images/event-1.jpeg"}
-          subtitle="New Delhi"
-        />
-        <ShowcaseCard
-          description={lorem}
-          heading="Event 2"
-          imageSrc={"/event-images/event-2.jpeg"}
-          subtitle="Mumbai"
-        />
+    <>
+      <Head>
+        <title>Events</title>
+      </Head>
+      <div className={`projects ${styles.container}`}>
+        <div className="heading-large">Events</div>
+        <div className={styles.eventsContainer}>
+          <ShowcaseCard
+            description={lorem}
+            heading="Event 1"
+            imageSrc={"/event-images/event-1.jpeg"}
+            subtitle="New Delhi"
+          />
+          <ShowcaseCard
+            description={lorem}
+            heading="Event 2"
+            imageSrc={"/event-images/event-2.jpeg"}
+            subtitle="Mumbai"
+          />
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 
