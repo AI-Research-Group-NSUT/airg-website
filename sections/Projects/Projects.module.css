@@ -12,9 +12,14 @@
 
 .cardSection {
     width: 100%;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    place-items: start;
+    /* flex with wrapping */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+
+
     padding-bottom: 83px;
     gap: 31px;
 }

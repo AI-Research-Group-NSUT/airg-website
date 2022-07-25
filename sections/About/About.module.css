@@ -3,10 +3,11 @@
     padding-right: min(123px, 5%);
 
     padding-top: 61px;
+    padding-top: 61px;
 }
 
 .heading {
-    font-family: Montserrat;
+
     font-size: 45px;
     font-weight: 500;
     line-height: 55px;
@@ -19,7 +20,7 @@
     display: flex;
     /* justify-content: space-between; */
     gap: 53px;
-    margin-bottom: 181px;
+
     position: relative;
 }
 
