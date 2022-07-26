@@ -11,8 +11,11 @@
 
 .tile {
     padding: 10px 20px;
-    transition: all 0.1s ease-in-out;
-    opacity: 0.3;
+    /* opacity: 0.0; */
+    filter: opacity(0);
+    overflow: hidden;
+    transform: translateX(100%);
+    transition: all 0.1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
 /* utility classes for nth tile delay */
@@ -44,8 +47,9 @@
 
 
 .cover.open .tile {
-    /* transform: translateX(0); */
-    opacity: 1;
+    transform: translateX(0);
+    /* opacity: 1; */
+    filter: opacity(1);
 }
 
 .tileText {
@@ -82,16 +86,6 @@
 
 .tileText:hover::after {
     width: 65%;
-}
-
-@keyframes slideIn {
-    0% {
-        transform: translateX(-100%);
-    }
-
-    100% {
-        transform: translateX(0);
-    }
 }
 
 
