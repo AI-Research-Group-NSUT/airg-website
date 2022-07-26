@@ -5,7 +5,7 @@
 .cover.open {
     /* display: block; */
     z-index: 1;
-    scale: 1;
+
     transform: translateX(0);
 }
 
@@ -107,7 +107,7 @@
         right: 0;
         bottom: 0;
         transform: translateX(100%);
-        scale: 0;
+        /* scale: 0; */
         /* display: none; */
         transition: all .5s ease-in-out;
 
