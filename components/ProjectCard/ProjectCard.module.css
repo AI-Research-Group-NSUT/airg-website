@@ -1,7 +1,8 @@
 .container {
     position: relative;
-    max-width: 421px;
-    min-width: 300px;
+    /* max-width: 421px; */
+    /* min-width: 300px; */
+    /* width: 40vw; */
     cursor: pointer;
     box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
     transition: all 0.3s ease-out;
@@ -100,4 +101,5 @@
     .headingSection {
         flex-direction: column;
     }
+
 }
