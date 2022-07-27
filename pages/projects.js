@@ -82,10 +82,10 @@ const Project = () => {
           Natural Language Processing
         </div>
         <ProjectCardSection projects={languageProcessingProjects} />
-      </div>
 
-      <div className={styles.subSectionHeading}>Climate Change</div>
-      <ProjectCardSection projects={climateChangeProjects} />
+        <div className={styles.subSectionHeading}>Climate Change</div>
+        <ProjectCardSection projects={climateChangeProjects} />
+      </div>
     </div>
   );
 };
