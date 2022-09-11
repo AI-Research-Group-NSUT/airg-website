@@ -25,7 +25,7 @@ export const ProjectCard = ({ project }) => {
 
                 <div ref={ref} className={`${styles.container} ${inView ? styles.active : ''}`}>
                     <div className={styles.imageContainer}>
-                        <Image layout='responsive' className={styles.image} src={`/project-images/${project.title}.jpeg`} width={392} height={264} alt={project.title} /> {/* assuming that image name is the same as the title */}
+                        <Image priority layout='responsive' className={styles.image} src={`/project-images/${project.title}.jpeg`} width={392} height={264} alt={project.title} /> {/* assuming that image name is the same as the title */}
                     </div>
                     <div className={styles.content}>
                         <div className={styles.headingSection}>
@@ -41,7 +41,6 @@ export const ProjectCard = ({ project }) => {
                         <span className={styles.openInNew}>
                             {openInNew}
                         </span>
-
                     </div>
                 </div>
             </div>

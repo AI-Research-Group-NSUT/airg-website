@@ -1,8 +1,5 @@
 .container {
     position: relative;
-    /* max-width: 421px; */
-    /* min-width: 300px; */
-    /* width: 40vw; */
     cursor: pointer;
     box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
     filter: opacity(0);
@@ -74,7 +71,7 @@
 }
 
 .date {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
