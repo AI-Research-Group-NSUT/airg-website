@@ -7,7 +7,7 @@ export const teamDets = {
     }, {
         name: "Dhruv Mullick",
         designation: "Advisor",
-        img: "https://i.pinimg.com/736x/46/46/3f/46463f00c0db960a677c04f072238b82.jpg",
+        img: "https://i.imgur.com/pnu2pe5.png",
         about: "MS, Computer Science at University of Alberta, Ex - Amazon, Alberta Machine Learning Institute (Amii)."
     }, {
         name: "Lohit Malik",
