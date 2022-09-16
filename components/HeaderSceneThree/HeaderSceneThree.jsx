@@ -1,6 +1,6 @@
 import * as THREE from 'three';
 
-import Stats from 'three/addons/libs/stats.module.js';
+
 
 import { useRef } from 'react';
 import { useEffect } from 'react';
@@ -8,7 +8,7 @@ import { useEffect } from 'react';
 export const HeaderSceneThree = () => {
     const containerRef = useRef(null);
 
-    let renderer, scene, camera, stats;
+    let renderer, scene, camera;
     let pointclouds;
     let raycaster;
     let intersection = null;
@@ -17,7 +17,7 @@ export const HeaderSceneThree = () => {
     let toggle = 0;
 
     const pointer = new THREE.Vector2();
-    const spheres = [];
+    // const spheres = [];
 
     const threshold = 0.1;
     const pointSize = 0.05;
@@ -151,7 +151,7 @@ export const HeaderSceneThree = () => {
         clock = new THREE.Clock();
 
         camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 1, 10000);
-        camera.position.set(0, 3, 5);
+        camera.position.set(5, 5, 5);
         camera.lookAt(scene.position);
         camera.updateMatrix();
 
@@ -179,13 +179,13 @@ export const HeaderSceneThree = () => {
         const sphereGeometry = new THREE.SphereGeometry(0.1, 32, 32);
         const sphereMaterial = new THREE.MeshBasicMaterial({ color: 0xff0000 });
 
-        for (let i = 0; i < 40; i++) {
+        // for (let i = 0; i < 40; i++) {
 
-            const sphere = new THREE.Mesh(sphereGeometry, sphereMaterial);
-            scene.add(sphere);
-            spheres.push(sphere);
+        //     const sphere = new THREE.Mesh(sphereGeometry, sphereMaterial);
+        //     scene.add(sphere);
+        //     spheres.push(sphere);
 
-        }
+        // }
 
         //
 
@@ -201,8 +201,8 @@ export const HeaderSceneThree = () => {
 
         //
 
-        stats = new Stats();
-        container.appendChild(stats.dom);
+        // stats = new Stats();
+        // container.appendChild(stats.dom);
 
         //
 
@@ -232,7 +232,7 @@ export const HeaderSceneThree = () => {
         requestAnimationFrame(animate);
 
         render();
-        stats.update();
+        // stats.update();
 
     }
 
@@ -246,23 +246,23 @@ export const HeaderSceneThree = () => {
         const intersections = raycaster.intersectObjects(pointclouds, false);
         intersection = (intersections.length) > 0 ? intersections[0] : null;
 
-        if (toggle > 0.02 && intersection !== null) {
+        // if (toggle > 0.02 && intersection !== null) {
 
-            spheres[spheresIndex].position.copy(intersection.point);
-            spheres[spheresIndex].scale.set(1, 1, 1);
-            spheresIndex = (spheresIndex + 1) % spheres.length;
+        //     spheres[spheresIndex].position.copy(intersection.point);
+        //     spheres[spheresIndex].scale.set(1, 1, 1);
+        //     spheresIndex = (spheresIndex + 1) % spheres.length;
 
-            toggle = 0;
+        //     toggle = 0;
 
-        }
+        // }
 
-        for (let i = 0; i < spheres.length; i++) {
+        // for (let i = 0; i < spheres.length; i++) {
 
-            const sphere = spheres[i];
-            sphere.scale.multiplyScalar(0.98);
-            sphere.scale.clampScalar(0.01, 1);
+        //     const sphere = spheres[i];
+        //     sphere.scale.multiplyScalar(0.98);
+        //     sphere.scale.clampScalar(0.01, 1);
 
-        }
+        // }
 
         toggle += clock.getDelta();
 
