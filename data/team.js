@@ -2,7 +2,7 @@ export const teamDets = {
     advisory: [{
         name: "Amisha Bhaskar",
         designation: "Advisor",
-        img: "https://pbs.twimg.com/media/DZotU1hW0AEDN5F.jpg",
+        img: "https://i.imgur.com/Df6jFYP.png",
         about: "PhD at University of Maryland, College Park, Data Scientist @OYO."
     }, {
         name: "Dhruv Mullick",
