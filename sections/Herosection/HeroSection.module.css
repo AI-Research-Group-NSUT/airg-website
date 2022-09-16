@@ -1,7 +1,7 @@
 .heroSection {
     width: 100%;
 
-    aspect-ratio: 1440/500;
+    aspect-ratio: 1440 / 500;
     /* background-size: cover;
     background-position: center;
     background-repeat: no-repeat; */
@@ -35,10 +35,10 @@
 
     gap: 6px;
 
-    background-color: hsla(345, 82%, 35%, 0.444);
+    /* background-color: hsla(345, 82%, 35%, 0.444); */
 
     padding: 10px 10%;
-
+    z-index: 3;
     text-align: center;
 
 }
@@ -48,9 +48,8 @@
     position: absolute;
     inset: 0;
     z-index: 2;
-    background:
-        linear-gradient(0deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
-
+    background: black;
+    opacity: 0.4;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -58,7 +57,6 @@
 
 
 .heading {
-
     font-size: 60px;
     font-weight: 500;
     line-height: 77px;
@@ -72,13 +70,13 @@
     font-size: 26px;
     font-weight: 400;
     line-height: 32px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: left;
 
 }
 
 /* add media queries for typography */
-@media (max-width: 768px) {
+@media(max-width: 768px) {
     .heading {
         font-size: 40px;
         line-height: 48px;
@@ -90,16 +88,16 @@
     }
 
     .heroSection {
-        aspect-ratio: 600/500;
+        aspect-ratio: 600 / 500;
     }
 
 }
 
 /* add media query for 500px */
 
-@media screen and (max-width: 500px) {
+@media screen and(max-width: 500px) {
     .heroSection {
-        aspect-ratio: 400/500;
+        aspect-ratio: 400 / 500;
     }
 
     .heading {

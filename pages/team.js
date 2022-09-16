@@ -65,7 +65,7 @@ const Team = () => {
       <Head>
         <title>Team</title>
       </Head>
-      <div className="project">
+      <div className="project" style={{ paddingTop: "61px" }}>
         <div className={`container`}>
           <div className="heading-large">Our Team</div>
           <div className={`${styles.textSection} body`}>
