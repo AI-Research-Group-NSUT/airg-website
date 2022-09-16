@@ -12,18 +12,18 @@ export const teamDets = {
     }, {
         name: "Lohit Malik",
         designation: "Advisor",
-        img: "https://static.generated.photos/vue-static/face-generator/landing/wall/14.jpg",
+        img: "https://i.imgur.com/jv4rjhk.jpg",
         about: "PhD at Princeton University, Ex - Research at IITD, Universite de Lorraine."
     },
     {
         name: "Roshan Shankar",
         designation: "Advisor",
-        img: "https://static.generated.photos/vue-static/face-generator/landing/wall/14.jpg",
+        img: "https://i.imgur.com/TxTSjjE.jpg",
         about: "PhD Candidate at Princeton, MS & MPA from Stanford, NSIT Batch of 2011."
     }, {
         name: "Yugal Raj Jain",
         designation: "Advisor",
-        img: "https://static.generated.photos/vue-static/face-generator/landing/wall/14.jpg",
+        img: "https://i.imgur.com/ggkmHCr.jpg",
         about: "MEngg from MIT, Ex-Tesla, NSIT Batch of 2015."
     }],
     core: [{
