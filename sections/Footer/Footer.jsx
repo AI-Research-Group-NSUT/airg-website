@@ -31,7 +31,6 @@ export const Footer = () => {
       <Link href={'/'}>
         <div className={styles.logo}>
           <div>
-
             <Image className={styles.image} src={'/airg-red-logo.jpeg'} width={60} height={60} />
           </div>
           <div className={styles.groupName}>

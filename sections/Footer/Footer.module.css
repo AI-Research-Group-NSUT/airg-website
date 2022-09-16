@@ -1,31 +1,21 @@
 .footer {
-    height: 281px;
     background-color: #A41034;
     width: 100%;
-
     display: flex;
     justify-content: space-between;
-
     color: white;
-
 }
 
 .container {
-    padding-left: min(103px, 5%);
-    padding-right: min(123px, 5%);
-
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 40px min(123px, 5%) 40px;
 }
 
 .heading {
-
     font-size: 28px;
     font-weight: 500;
     line-height: 34px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: left;
-
     color: white;
 }
 
@@ -37,12 +27,12 @@
     color: white
 }
 
-.quickLinks>li {
+.quickLinks > li {
 
     font-size: 20px;
     font-weight: 300;
     line-height: 30px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: left;
 
     padding-top: 7px;
@@ -53,7 +43,7 @@
     font-size: 32px;
     font-weight: 500;
     line-height: 39px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: left;
 
 }
@@ -86,7 +76,7 @@
 
 /* .links {} */
 
-@media screen and (max-width: 768px) {
+@media screen and(max-width: 768px) {
     .links {
         display: none;
     }
