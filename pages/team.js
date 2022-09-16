@@ -1,12 +1,13 @@
 import Head from "next/head";
-import { Navbar } from "../sections/Navbar";
 
+import { Spacer } from "../components/Spacer";
 const Team = () => {
   return (
     <>
       <Head>
         <title>Team</title>
       </Head>
+      <Spacer />
       <div className="project"></div>
     </>
   );

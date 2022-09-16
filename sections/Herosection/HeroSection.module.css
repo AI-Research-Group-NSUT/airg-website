@@ -35,8 +35,12 @@
 
     gap: 6px;
 
-    /* background-color: #A41034; */
-    ;
+    background-color: hsla(345, 82%, 35%, 0.444);
+
+    padding: 10px 10%;
+
+    text-align: center;
+
 }
 
 
@@ -46,6 +50,10 @@
     z-index: 2;
     background:
         linear-gradient(0deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 

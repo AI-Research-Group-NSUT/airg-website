@@ -3,6 +3,8 @@ import ProjectCardSection from "../components/ProjectCardSection";
 
 import * as styles from "../styles/Projects.module.css";
 
+import { Spacer } from "../components/Spacer";
+
 const publicHealthProjects = [
   {
     title: "Project-1",
@@ -56,6 +58,7 @@ const Project = () => {
       <Head>
         <title>Projects</title>
       </Head>
+      <Spacer />
       <div className={`container`}>
         <div className="heading-large">Projects</div>
         <div className={`${styles.textSection} body`}>
