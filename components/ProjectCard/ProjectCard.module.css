@@ -7,7 +7,7 @@
 
     transition: all 0.3s ease-out;
 
-    height: 250px;
+    /* height: 250px; */
 }
 
 .container.active {

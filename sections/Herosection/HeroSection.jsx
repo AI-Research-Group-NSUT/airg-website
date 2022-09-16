@@ -17,7 +17,7 @@ export const HeroSection = () => {
 
             <div className={styles.textSection}>
 
-                <div className={styles.heading}>Artificial Intelligence<br />
+                <div className={styles.heading}><span style={{ color: 'hsl(345, 82%, 55%)' }}>Artificial</span> Intelligence<br />
                     Research Group</div>
                 <div className={styles.subHeading}>
                     Netaji Subhas University of Technology
