@@ -68,6 +68,14 @@
 }
 
 @media screen and (max-width: 768px) {
+
+    .navbar {
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 0%;
+        padding-bottom: 0%;
+    }
+
     .menuButton {
 
         display: block;
