@@ -1,24 +1,53 @@
 .heroSection {
     width: 100%;
-    background: url(/herosection-background.jpeg), linear-gradient(180deg, rgba(164, 16, 52, 0) -54.41%, #A41034 122.72%),
-        linear-gradient(0deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
-    aspect-ratio: 1440/500;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 
-    background-blend-mode: soft-light;
+    aspect-ratio: 1440/500;
+    /* background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+
+    /* background-blend-mode: soft-light; */
+    height: 100vh;
 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: relative;
+
 
     color: #fff;
 
-    gap: 6px;
+
     transition: all 0.3s ease-in-out;
 }
+
+.three {
+    position: absolute;
+    z-index: -1;
+}
+
+.textSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 6px;
+
+    /* background-color: #A41034; */
+    ;
+}
+
+
+.gradient {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    background:
+        linear-gradient(0deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+}
+
 
 .heading {
 
