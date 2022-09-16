@@ -55,7 +55,7 @@ a {
 
   font-size: 22px;
   font-weight: 400;
-  line-height: 33px;
+  line-height: 26px;
   letter-spacing: 0.02em;
   text-align: left;
 
@@ -84,6 +84,14 @@ a {
   /* font-weight: bold; */
 }
 
+.container {
+  padding-left: 10%;
+  padding-right: 10%;
+
+  padding-top: 61px;
+}
+
+
 /* add media queries for typography */
 @media screen and (max-width: 768px) {
   .heading-large {
@@ -101,6 +109,11 @@ a {
     line-height: 24px;
   }
 
+  .container {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
 
 }
 
@@ -114,5 +127,6 @@ a {
     font-size: 16px;
     line-height: 22px;
   }
+
 
 }

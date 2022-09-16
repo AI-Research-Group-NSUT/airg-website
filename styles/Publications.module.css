@@ -1,12 +1,5 @@
-.container {
-    padding-left: min(103px, 5%);
-    padding-right: min(123px, 5%);
-
-    padding-top: 61px;
-}
-
 .publicationsContainer {
-    padding-top: 57px;
+    padding-top: 10px;
     padding-bottom: 57px;
     display: flex;
     flex-direction: column;

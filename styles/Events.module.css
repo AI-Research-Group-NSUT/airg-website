@@ -1,7 +1,9 @@
 .container {
-    padding-left: min(103px, 5%);
-    padding-right: min(123px, 5%);
+    /* padding-left: min(103px, 5%);
+    padding-right: min(123px, 5%); */
 
+    padding-left: 10%;
+    padding-right: 10%;
     padding-top: 61px;
 }
 

@@ -11,7 +11,7 @@ const Publications = () => {
       <Head>
         <title>Publications</title>
       </Head>
-      <div className={`project ${styles.container}`}>
+      <div className={`project container`}>
         <div className="heading-large">Publications</div>
         <div className={`body ${styles.text}`}>{lorem}</div>
         <div className={styles.publicationsContainer}>

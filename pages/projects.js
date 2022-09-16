@@ -56,7 +56,7 @@ const Project = () => {
       <Head>
         <title>Projects</title>
       </Head>
-      <div className={styles.container}>
+      <div className={`container`}>
         <div className="heading-large">Projects</div>
         <div className={`${styles.textSection} body`}>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit ea

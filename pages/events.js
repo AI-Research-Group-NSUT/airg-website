@@ -11,7 +11,7 @@ const Events = () => {
       <Head>
         <title>Events</title>
       </Head>
-      <div className={`projects ${styles.container}`}>
+      <div className={`projects container`}>
         <div className="heading-large">Events</div>
         <div className={styles.eventsContainer}>
           <ShowcaseCard
