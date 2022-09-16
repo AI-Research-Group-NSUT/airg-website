@@ -1,5 +1,4 @@
 import Head from "next/head";
-<<<<<<< HEAD
 import { useEffect, useRef, useState } from "react";
 import { TeamCard, TeamCardsHolder } from "../components/TeamCardsHolder";
 import { teamDets } from "../data/team";
@@ -31,8 +30,6 @@ const getResearcher = () => {
   )
 }
 
-=======
->>>>>>> ec9ded45f2dab87fb7d21dd1fa499ba010f4c7e5
 
 import { Spacer } from "../components/Spacer";
 const Team = () => {
