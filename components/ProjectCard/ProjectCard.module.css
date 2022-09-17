@@ -97,6 +97,7 @@
     justify-content: space-between;
     align-items: center;
     padding-bottom: 40px;
+    flex-direction: column;
 }
 
 .description {
@@ -104,9 +105,10 @@
     display: block;
 }
 
-@media screen and (max-width: 360px) {
+/* 
+@media screen and (max-width: 1000px) {
     .headingSection {
         flex-direction: column;
     }
 
-}
+} */
