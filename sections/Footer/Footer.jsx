@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react'
+import { useState, useEffect } from 'react';
 import { SocialMediaLinks } from '../../components/SocialMediaLinks/SocialMediaLinks'
 import { capitalizeFirst } from '../../utils/util';
 import * as styles from './Footer.module.css'
@@ -8,10 +9,27 @@ import * as styles from './Footer.module.css'
 const tabs = ["home", "projects", "publications", "events", "team"];
 
 export const Footer = () => {
+
+  // const [screenWidth, setScreenWidth] = useState(typeof window !== 'undefined' ? window.innerWidth : 0);
+
+
+  // useEffect(() => {
+  //   window.addEventListener('resize', () => {
+  //     setScreenWidth(window.innerWidth)
+  //   })
+
+  //   return () => {
+  //     window.removeEventListener('resize', () => {
+  //       setScreenWidth(window.innerWidth)
+  //     })
+  //   }
+  // }, [])
+
+
   return (
     <div className={`${styles.footer} ${styles.container}`}>
       {/* quick links */}
-
+      {/* {screenWidth > 768 && */}
       <div className={styles.links}>
         <span className={styles.heading}>Quick Links</span>
         <ul className={styles.quickLinks}>
@@ -24,6 +42,7 @@ export const Footer = () => {
           ))}
         </ul>
       </div>
+      {/* } */}
 
 
       <SocialMediaLinks />

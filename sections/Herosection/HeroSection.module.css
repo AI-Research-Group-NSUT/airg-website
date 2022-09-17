@@ -11,6 +11,13 @@
     transition: all 0.3s ease-in-out;
 }
 
+@supports (height: 100lvh) {
+    .heroSection {
+        height: 100lvh;
+    }
+}
+
+
 .three {
     position: absolute;
     z-index: -1;
