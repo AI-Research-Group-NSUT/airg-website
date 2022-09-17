@@ -1,4 +1,10 @@
+/* :root {
+
+} */
+
 .cover {
+    --delay: 0.1s;
+    --initial: 0.0s;
     display: none;
 }
 
@@ -15,33 +21,34 @@
     filter: opacity(0);
     overflow: hidden;
     transform: translateX(100%);
-    transition: all 0.1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transition: all 0.1s cubic-bezier(0.165, 0.84, 0.44, 1);
+    /*  cubic-bezier(0.25, 0.46, 0.45, 0.94)  */
 }
 
 /* utility classes for nth tile delay */
 .tile-1 {
-    transition-delay: 0.3s;
+    transition-delay: calc(var(--initial) + var(--delay) * 1);
     /* transform: translateX(100px); */
 
 }
 
 .tile-2 {
-    transition-delay: 0.4s;
+    transition-delay: calc(var(--initial) + var(--delay) * 2);
     /* transform: translateX(200px); */
 }
 
 .tile-3 {
-    transition-delay: 0.5s;
+    transition-delay: calc(var(--initial) + var(--delay) * 3);
     /* transform: translateX(300px); */
 }
 
 .tile-4 {
-    transition-delay: 0.6s;
+    transition-delay: calc(var(--initial) + var(--delay) * 4);
     /* transform: translateX(400px); */
 }
 
 .tile-5 {
-    transition-delay: 0.7s;
+    transition-delay: calc(var(--initial) + var(--delay) * 5);
     /* transform: translateX(500px); */
 }
 
