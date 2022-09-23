@@ -6,7 +6,7 @@ import { SocialMediaLinks } from '../../components/SocialMediaLinks/SocialMediaL
 import { capitalizeFirst } from '../../utils/util';
 import * as styles from './Footer.module.css'
 
-const tabs = ["home", "projects", "publications", "events", "team"];
+const tabs = ["home", "events", "team"];
 
 export const Footer = () => {
 
