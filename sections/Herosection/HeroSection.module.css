@@ -17,6 +17,11 @@
     }
 }
 
+.logo>svg {
+    width: 30px;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
 
 .three {
     position: absolute;
@@ -33,8 +38,22 @@
     /* background-color: hsla(345, 82%, 35%, 0.444); */
     padding: 10px 10%;
     text-align: center;
+    position: relative;
 }
 
+.backed {
+
+    display: flex;
+    justify-self: center;
+    align-items: baseline;
+    gap: 5px;
+
+    font-weight: 100;
+}
+
+.backed>span {
+    cursor: pointer;
+}
 
 .gradient {
     position: absolute;

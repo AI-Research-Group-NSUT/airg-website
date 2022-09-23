@@ -1,3 +1,5 @@
+import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 import { HeaderSceneThree } from '../../components/HeaderSceneThree'
 
@@ -22,7 +24,17 @@ export const HeroSection = () => {
                 <div className={styles.subHeading}>
                     Netaji Subhas University of Technology
                 </div>
+                <div className={styles.backed} style={{ marginTop: '5px' }}>
+                    backed by <Link
+                        // new tab
+                        target="_blank"
+                        href={"https://www.intel.in/content/www/in/en/homepage.html"}>
+                        <Image src={"/intel-logo.svg"} width={50} height={17} />
+                    </Link>
+
+                </div>
             </div>
         </div>
     )
 }
+
