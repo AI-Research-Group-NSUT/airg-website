@@ -8,8 +8,8 @@ export const TeamCard = ({ member }) => {
                 <p>{member.about}</p>
                 <div className={styles.spacer}></div>
                 <div className={styles.socials}>
-                    <IconLink icon={github} link="https://www.linkedin.com/company/artificial-intelligence-research-group-nsut/mycompany/" />
-                    <IconLink icon={linkedIn} link="https://www.linkedin.com/company/artificial-intelligence-research-group-nsut/mycompany/" />
+                    <IconLink icon={github} link={member.github || "https://www.linkedin.com/company/artificial-intelligence-research-group-nsut/mycompany/"} />
+                    <IconLink icon={linkedIn} link={member.linkedin || "https://www.linkedin.com/company/artificial-intelligence-research-group-nsut/mycompany/"} />
                 </div>
             </div>
             <div className={styles.image} style={{ backgroundImage: `url(${member?.img})` }}></div>
@@ -24,10 +24,12 @@ export const TeamCard = ({ member }) => {
 }
 
 const IconLink = ({ icon, link }) => {
+    // console.log(icon)
     return (
         <a href={link}
             target="_blank"
             className={styles.iconLink} rel="noreferrer"
+
         >
             {icon}
         </a>

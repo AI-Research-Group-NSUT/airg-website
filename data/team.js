@@ -74,6 +74,7 @@ export const teamDets = {
       designation: "Director",
       img: "https://i.imgur.com/8AhP60x.jpg",
       about: "Research Intern  @IITR, Image processing and spatial analysis.",
+      linkedin: "https://www.linkedin.com/in/ronak-patel-8095b2215",
     },
     {
       name: "Naman Dureja",
@@ -102,6 +103,8 @@ export const teamDets = {
       img: "https://i.imgur.com/0i79HJi.jpg",
       about:
         "Research Intern @ Vanderbilt University, NLP & CV Research Assistant at NSUT.",
+      linkedin: "https://www.linkedin.com/in/aryamansharma01",
+      github: "https://github.com/aryamansharma01",
     },
     {
       name: "Sujal Goel",
@@ -115,11 +118,15 @@ export const teamDets = {
       img: "https://i.imgur.com/pWa9PC7.jpg",
       about:
         "Data Scientist and Python Developer @Topcoder, NLP/RNN/LSTM, Social Network Analysis, Spatial Analysis",
+      linkedin: "https://www.linkedin.com/in/poojan-vachharajani",
+      github: "https://github.com/pj-mathematician",
     },
     {
       name: "Arnav Gupta",
       img: "https://i.imgur.com/cKaHGN8.jpg",
       about: "Deep Learning, Recurrent Neural Network",
+      linkedin: "https://www.linkedin.com/in/arnav-gupta-278a67226",
+      github: "https://github.com/arnavgupta1209",
     },
 
     {
@@ -131,11 +138,15 @@ export const teamDets = {
       name: "Chaitanya Giri",
       img: "https://i.imgur.com/0bgQC0r.jpg",
       about: "Full Stack Developer, DL, NLP, CV, LSTM.",
+      linkedin: "https://www.linkedin.com/in/chaitanya-giri",
+      github: "https://github.com/Chaitanya134",
     },
     {
       name: "Shivendra Pratap Singh",
       img: "https://i.imgur.com/itaO3iy.jpg",
       about: "Natural Language Processing, Deep Learning, Computer Vision",
+      linkedin: "https://www.linkedin.com/in/shivendra-pratap-singh-894b0a223",
+      github: "https://github.com/LETME2X",
     },
     {
       name: "Anandiya Sheel Diwan",
@@ -147,18 +158,24 @@ export const teamDets = {
       name: "Laksshay Sehrawat",
       img: "https://i.imgur.com/MdnCOyI.png",
       about: "CV, DL, Full stack Developer, Graphics",
+      linkedin: "https://www.linkedin.com/in/laksshay-sehrawat-20b0a9220/",
+      github: "https://github.com/Laksshay-Sehrawat",
     },
     {
       name: "Aryan Singhal",
       img: "https://i.imgur.com/2OHHaLq.png",
       about:
         "Research Intern | Graphics, Image Processing and Styling using ML",
+      linkedin: "https://www.linkedin.com/in/aryan-singhal",
+      github: "https://github.com/Aryan-Singhal-Nsut",
     },
     {
       name: "Hardik Chhabra",
       img: "https://i.imgur.com/WIwiJrR.jpg",
       about:
         "DL, NLP, CV, Time Series Analysis and ML, Full Stack Developer/GUI.",
+      linkedin: "https://www.linkedin.com/in/hardik-chhabra",
+      github: "https://github.com/Hardchik",
     },
   ],
 };
