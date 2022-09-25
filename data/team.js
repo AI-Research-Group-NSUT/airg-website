@@ -42,6 +42,7 @@ export const teamDets = {
       img: "https://i.imgur.com/1WfGgQa.png",
       about:
         "Research associate at Harvard University, UG researcher at NUS & HDS, Visiting cholar UVA.",
+      linkedin: "https://www.linkedin.com/in/mohitc02/",
     },
     {
       name: "Bhavya Dhingra",
@@ -89,6 +90,7 @@ export const teamDets = {
       img: "https://i.imgur.com/NE8wFZB.jpg",
       about:
         "Frontend Engineer, App (Flutter) and Web development (React, NextJS)",
+      github: "https://github.com/PriyanshuSharma23",
     },
   ],
   sen_researchers: [
