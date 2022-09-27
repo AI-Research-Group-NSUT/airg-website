@@ -1,21 +1,24 @@
 export const projects = [
   {
-    title: "Project-1",
+    title: "Comparison of Daily COVID-19 Cases Prediction Spatial Models based on Architecture and Features",
     description:
-      "This is a project description, this is a project description, this is a project description",
-    date: "2020-01-01",
+      "This project implements various models to predict daily COVID-19 cases primarily using spatial data provided by Facebook's (Meta's) Data For Good program. Various machine learning and deep learning models are compared based on the accuracy of predicted values. This project also justifies the importance of several features, such as daily COVID testing and vaccination statistics.",
+    date: "2022-07-05",
+    href: "https://github.com/AI-Research-Group-NSUT/Analysing-and-Comparing-Facebook-Movement-Data",
   },
   {
-    title: "Project-2",
+    title: "Generating Handwriting using LSTMs.",
     description:
-      "This is a project description, this is a project description, this is a project description",
-    date: "2020-01-01",
+      "handwritten databases of Arabic and Bengali language, this project implements a recurrent neural network using LSTM layers that predicts one data point at a time. The trained neural network is capable of generating human-like handwriting based on text input. This is the next step toward handwriting and document analysis.",
+    date: "2022-09-27",
+    href: "https://github.com/AI-Research-Group-NSUT/Handwriting-Synthesis",
   },
   {
-    title: "Project-3",
+    title: "DistilmBERT and XLM RoBERTa for Multilingual Toxic Comment Classification.",
     description:
-      "This is a project description, this is a project description, this is a project description",
-    date: "2020-01-01",
+      "As user-generated content on the internet increases, so does the spread of toxic comments. There is no formal definition of hate and abusive speeches. Still, the threat of abuse and harassment online means that many people limit expressing themselves and give up on seeking different opinions. Therefore, detecting toxic comments becomes an active research area and is often handled as a text classification task. As recent popular methods for text classification tasks, classification tasks, pre-trained language model-based methods are at the forefront of Natural Language Processing, achieving state-of-the-art performance on various NLP tasks. However, there is a lack of studies using such methods on toxic comment classification. In this work, we study how to use pre-trained language model-based methods for toxic comment classification and the performances of different pre-trained language models on these tasks. This study introduces an ensemble approach, where we have used pre-trained models - DistilmBert and xlm-Roberta-large-xnli to perform the toxic comment classification task. We trained our model on an English dataset, tested it on Wikipedia talk page comments in several languages, and achieved an accuracy of over 93%.",
+    date: "2022-07-07",
+    href: "https://github.com/AI-Research-Group-NSUT/Multilingual-Toxic-Comment-Classification",
   },
 ];
 

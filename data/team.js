@@ -41,7 +41,7 @@ export const teamDets = {
       designation: "Founder & President",
       img: "https://i.imgur.com/1WfGgQa.png",
       about:
-        "Research associate at Harvard University, UG researcher at NUS & HDS, Visiting cholar UVA.",
+        "Research Associate at Harvard University, UG Researcher at NUS, Visiting Scholar UVA.",
       linkedin: "https://www.linkedin.com/in/mohitc02/",
     },
     {
@@ -73,7 +73,7 @@ export const teamDets = {
     {
       name: "Ronak Gadara",
       designation: "Director",
-      img: "https://i.imgur.com/8AhP60x.jpg",
+      img: "https://i.imgur.com/COQW0hE.jpg",
       about: "Research Intern  @IITR, Image processing and spatial analysis.",
       linkedin: "https://www.linkedin.com/in/ronak-patel-8095b2215",
     },

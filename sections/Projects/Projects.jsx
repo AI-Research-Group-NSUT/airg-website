@@ -13,13 +13,13 @@ export const Projects = () => {
         <div className={`container ${styles.container}`}>
             <div className='heading-large' style={{ 'paddingBottom': 29 }}>Projects</div>
             <ProjectCardSection projects={projects} />
-            <Link href={'/projects'}>
+            {/* <Link href={'/projects'}>
                 <button className={styles.button}>
                     <div className={styles.buttonText}>
-                        View More Projects
+                    	View More Projects
                     </div>
                 </button>
-            </Link>
+            </Link> */}
         </div>
     )
 }

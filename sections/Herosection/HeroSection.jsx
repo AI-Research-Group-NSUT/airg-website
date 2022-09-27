@@ -24,7 +24,7 @@ export const HeroSection = () => {
                 <div className={styles.subHeading}>
                     Netaji Subhas University of Technology
                 </div>
-                <div className={styles.backed} style={{ marginTop: '5px' }}>
+                <div className={styles.backed} style={{ marginTop: '5px', fontWeight: '500' }}>
                     backed by <Link
                         // new tab
                         target="_blank"

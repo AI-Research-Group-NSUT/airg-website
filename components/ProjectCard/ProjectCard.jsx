@@ -19,7 +19,7 @@ export const ProjectCard = ({ project }) => {
     const hide = () => setShowViewMore(false)
 
     return (
-        <Link href={`/projects/${project.title}`}>
+        <Link href={project.href}>
 
             <div onMouseEnter={show} onMouseLeave={hide} >
 

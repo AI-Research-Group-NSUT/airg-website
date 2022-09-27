@@ -77,8 +77,7 @@ const Team = () => {
           <div className="heading-large">Our Team</div>
           <div className={`${styles.textSection} body`}>
             <b>
-              <span style={{ color: "hsl(345, 82%, 55%)" }}>Artificial</span>{" "}
-              Intelligence Research Group
+              <span style={{ color: "hsl(345, 82%, 55%)" }}>Artificial Intelligence Research Group</span>
             </b>{" "}
             is established by young researchers from NSUT, working at the
             world&apos;s top research institutions like{" "}
