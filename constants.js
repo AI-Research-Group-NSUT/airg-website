@@ -1,6 +1,7 @@
 export const projects = [
   {
     title: "Comparison of Daily COVID-19 Cases Prediction Spatial Models based on Architecture and Features",
+    imagePath: "Project-1",
     description:
       "This project implements various models to predict daily COVID-19 cases primarily using spatial data provided by Facebook's (Meta's) Data For Good program. Various machine learning and deep learning models are compared based on the accuracy of predicted values. This project also justifies the importance of several features, such as daily COVID testing and vaccination statistics.",
     date: "2022-07-05",
@@ -8,6 +9,7 @@ export const projects = [
   },
   {
     title: "Generating Handwriting using LSTMs.",
+    imagePath: "Project-2",
     description:
       "handwritten databases of Arabic and Bengali language, this project implements a recurrent neural network using LSTM layers that predicts one data point at a time. The trained neural network is capable of generating human-like handwriting based on text input. This is the next step toward handwriting and document analysis.",
     date: "2022-09-27",
@@ -15,6 +17,7 @@ export const projects = [
   },
   {
     title: "DistilmBERT and XLM RoBERTa for Multilingual Toxic Comment Classification.",
+    imagePath: "Project-3",
     description:
       "We studied how to use pre-trained language model-based methods for toxic comment classification and the performances of different pre-trained language models on these tasks. This study introduces an ensemble approach, where we have used pre-trained models - DistilmBert and xlm-Roberta-large-xnli to perform the toxic comment classification task. We trained our model on an English dataset, tested it on Wikipedia talk page comments in several languages, and achieved an accuracy of over 93%.",
     date: "2022-07-07",
