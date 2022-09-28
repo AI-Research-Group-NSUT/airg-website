@@ -43,10 +43,10 @@
     font-size: 30px;
     background-color: #A4103455;
     color: white;
-
+    
     opacity: 0;
     transition: all 0.3s ease-in;
-
+    
     z-index: -1;
 }
 
@@ -70,6 +70,14 @@
     letter-spacing: 0em;
     text-align: left;
 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    min-height: calc(line-height * line-clamp);
+    
 }
 
 .date {
@@ -85,7 +93,7 @@
 }
 
 .content {
-    padding: 24px 32px;
+    padding: 30px 32px;
     background-color: #fff;
     border: 1px solid #A41034;
     width: 100%;
@@ -96,13 +104,21 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     flex-direction: column;
 }
 
 .description {
     width: 100%;
-    display: block;
+    /* display: block; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 9;
+    line-clamp: 9;
+    -webkit-box-orient: vertical;
+    min-height: calc(line-height * line-clamp);
+
 }
 
 /* 

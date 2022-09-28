@@ -30,7 +30,7 @@ export const ProjectCard = ({ project }) => {
                     <div className={styles.content}>
                         <div className={styles.headingSection}>
                             <div className={styles.heading}>{project.title}</div>
-                            <div className={styles.date}>{project.date}</div>
+                            {/* <div className={styles.date}>{project.date}</div> */}
                         </div>
                         <div className={`descriptionSection ${styles.description}`}>
                             {project.description}
