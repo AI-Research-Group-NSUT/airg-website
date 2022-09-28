@@ -74,10 +74,15 @@
     text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-line-clamp: 3;
-    line-clamp: 3;
     -webkit-box-orient: vertical;
-    min-height: calc(line-height * line-clamp);
-    
+    min-height: 111px;
+    max-height: 111px;
+    transition: all 1s;
+}
+
+.container:hover .heading {
+    -webkit-line-clamp: 10;
+    max-height: 500px;
 }
 
 .date {
@@ -111,14 +116,20 @@
 .description {
     width: 100%;
     /* display: block; */
+
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-line-clamp: 9;
-    line-clamp: 9;
     -webkit-box-orient: vertical;
-    min-height: calc(line-height * line-clamp);
+    min-height: 172.8px;
+    max-height: 172.8px;
+    transition: all 1s;
+}
 
+.container:hover .description {
+    -webkit-line-clamp: 20;
+    max-height: 500px;
 }
 
 /* 
