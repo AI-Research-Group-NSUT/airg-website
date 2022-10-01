@@ -11,7 +11,7 @@ import * as styles from './Projects.module.css'
 export const Projects = () => {
     return (
         <div className={`container ${styles.container}`}>
-            <div className='heading-large' style={{ 'paddingBottom': 29 }}>Projects</div>
+            <div className='heading-large' style={{ 'paddingBottom': 29 }}>Featured Projects</div>
             <ProjectCardSection projects={projects} />
             {/* <Link href={'/projects'}>
                 <button className={styles.button}>
