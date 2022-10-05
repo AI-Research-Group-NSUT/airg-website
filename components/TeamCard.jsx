@@ -1,5 +1,5 @@
 import styles from "../styles/team.module.css"
-import { linkedIn, github } from '../constants'
+import { linkedIn, github, harvard } from '../constants'
 
 export const TeamCard = ({ member }) => {
     return (<>
@@ -10,6 +10,13 @@ export const TeamCard = ({ member }) => {
                 <div className={styles.socials}>
                     <IconLink icon={github} link={member.github || "https://www.linkedin.com/company/artificial-intelligence-research-group-nsut/mycompany/"} />
                     <IconLink icon={linkedIn} link={member.linkedin || "https://www.linkedin.com/company/artificial-intelligence-research-group-nsut/mycompany/"} />
+                    {
+                        member.harvard && <IconLink icon={harvard} link={member.harvard} />
+
+                    }
+                    {
+                        console.log(member.harvard)
+                    }
                 </div>
             </div>
             <div className={styles.image} style={{ backgroundImage: `url(${member?.img})` }}></div>

@@ -41,8 +41,9 @@ export const teamDets = {
       designation: "Founder & President",
       img: "https://i.imgur.com/1WfGgQa.png",
       about:
-        "Research Associate at Harvard University, UG Researcher at NUS, Visiting Scholar UVA.",
+        "Research Associate at Harvard University, Researcher at NUS, Visiting Scholar at UVA and Mentor at MIT Policy Hackathon 2022.",
       linkedin: "https://www.linkedin.com/in/mohitc02/",
+      harvard: "https://gis.harvard.edu/people/mohit-chaurasiya",
     },
     {
       name: "Bhavya Dhingra",
