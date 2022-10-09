@@ -7,7 +7,7 @@ import Menu from "../../components/Menu";
 import { useState } from "react";
 import { ScreenCoverNavbar } from "../ScreenCoverNavbar/ScreenCoverNavbar";
 
-const tabs = ["home", "team"];
+const tabs = ["home", "events", "team"];
 
 const Navbar = () => {
   // get current tab

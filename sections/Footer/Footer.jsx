@@ -1,17 +1,15 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import React from 'react'
-import { useState, useEffect } from 'react';
-import { SocialMediaLinks } from '../../components/SocialMediaLinks/SocialMediaLinks'
-import { capitalizeFirst } from '../../utils/util';
-import * as styles from './Footer.module.css'
+import Image from "next/image";
+import Link from "next/link";
+import React from "react";
+import { useState, useEffect } from "react";
+import { SocialMediaLinks } from "../../components/SocialMediaLinks/SocialMediaLinks";
+import { capitalizeFirst } from "../../utils/util";
+import * as styles from "./Footer.module.css";
 
 const tabs = ["home", "events", "team"];
 
 export const Footer = () => {
-
   // const [screenWidth, setScreenWidth] = useState(typeof window !== 'undefined' ? window.innerWidth : 0);
-
 
   // useEffect(() => {
   //   window.addEventListener('resize', () => {
@@ -25,7 +23,6 @@ export const Footer = () => {
   //   }
   // }, [])
 
-
   return (
     <div className={`${styles.footer} ${styles.container}`}>
       {/* quick links */}
@@ -33,9 +30,9 @@ export const Footer = () => {
       <div className={styles.links}>
         <span className={styles.heading}>Quick Links</span>
         <ul className={styles.quickLinks}>
-          {tabs.map(tab => (
+          {tabs.map((tab) => (
             <li key={tab} className={styles.quickLink}>
-              <Link href={`/${tab == 'home' ? '' : tab}`}>
+              <Link href={`/${tab == "home" ? "" : tab}`}>
                 <a>{capitalizeFirst(tab)}</a>
               </Link>
             </li>
@@ -44,13 +41,17 @@ export const Footer = () => {
       </div>
       {/* } */}
 
-
       <SocialMediaLinks />
 
-      <Link href={'/'}>
+      <Link href={"/"}>
         <div className={styles.logo}>
           <div>
-            <Image className={styles.image} src={'/airg-red-logo.jpeg'} width={60} height={60} />
+            <Image
+              className={styles.image}
+              src={"/airg-red-logo.jpeg"}
+              width={60}
+              height={60}
+            />
           </div>
           <div className={styles.groupName}>
             <span className={styles.logoTop}>AIRG</span>
@@ -58,7 +59,6 @@ export const Footer = () => {
           </div>
         </div>
       </Link>
-
     </div>
-  )
-}
+  );
+};
