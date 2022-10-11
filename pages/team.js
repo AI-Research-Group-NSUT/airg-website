@@ -98,7 +98,7 @@ const Team = () => {
             Intelligence and Data Science.
             <br />
             <br />
-            We have researchers with exposure from world's top research
+            We have researchers with exposure from world&apos;s top research
             institutions like Harvard University, Princeton University, National
             University of Singapore, Vanderbilt University, Carnegie Mellon
             University and others.
@@ -107,9 +107,8 @@ const Team = () => {
             {buttons.tabs.map((x, n) => {
               return (
                 <button
-                  className={`${styles1.button} ${
-                    buttons.current === n ? styles1.active : ""
-                  }`}
+                  className={`${styles1.button} ${buttons.current === n ? styles1.active : ""
+                    }`}
                   onClick={() => {
                     setButtons((old) => ({ ...old, current: n }));
                   }}
