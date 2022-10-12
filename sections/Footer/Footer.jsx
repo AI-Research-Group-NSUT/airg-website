@@ -6,7 +6,7 @@ import { SocialMediaLinks } from "../../components/SocialMediaLinks/SocialMediaL
 import { capitalizeFirst } from "../../utils/util";
 import * as styles from "./Footer.module.css";
 
-const tabs = ["home", "events", "team"];
+const tabs = ["home", "team"];
 
 export const Footer = () => {
   // const [screenWidth, setScreenWidth] = useState(typeof window !== 'undefined' ? window.innerWidth : 0);
