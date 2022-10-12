@@ -84,8 +84,6 @@ const Team = () => {
             is established by young researchers from NSUT, working at the
             world&apos;s top research institutions like{" "}
             <b>Harvard, Princeton, NUS, Vanderbilt</b> and <b>CMU</b>.<br></br>
-            {/* AIRG is essentially for NSUT students by NSUT students, irrespective
-            of their branch, year of study, or work experience. */}
             <br />
             AIRG NSUT is backed by{" "}
             <span style={{ color: "hsl(345, 82%, 55%)", fontWeight: 500 }}>
@@ -97,11 +95,6 @@ const Team = () => {
             under the guidance of experienced researchers in Artificial
             Intelligence and Data Science.
             <br />
-            <br />
-            We have researchers with exposure from world&apos;s top research
-            institutions like Harvard University, Princeton University, National
-            University of Singapore, Vanderbilt University, Carnegie Mellon
-            University and others.
           </div>
           <div className={styles1.categWrap}>
             {buttons.tabs.map((x, n) => {
