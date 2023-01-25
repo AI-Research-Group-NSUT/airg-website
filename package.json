@@ -10,9 +10,9 @@
   },
   "dependencies": {
     "@react-three/fiber": "^8.7.4",
-    "next": "^12.2.2",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "next": "^12.3.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-intersection-observer": "^9.4.0",
     "sharp": "^0.30.7",
     "three": "^0.144.0"
